@@ -1501,6 +1501,39 @@ details p {
   .footer-inner {
     flex-direction: column;
   }
+
+  .card-image {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+  margin-bottom: 16px;
+  border-radius: 12px;
+}
+
+.dara-text {
+  color: #a11b1f;
+  font-weight: 800;
+}
+
+.dara-text {
+  color: #a11b1f;
+  font-weight: 800;
+}
+
+h1 .dara-text {
+  color: #a11b1f !important;
+  -webkit-text-fill-color: #a11b1f !important;
+  font-weight: 900 !important;
+}
+
+.portrait img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
 }
 
 @media (max-width: 430px) {
