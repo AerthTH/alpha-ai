@@ -447,6 +447,18 @@ a {
   letter-spacing: .01em;
 }
 
+.feature-icon {
+  width: 256px;
+  height: 256px;
+  object-fit: contain;
+  display: block;
+  margin: 0 0 -2px 0;
+}
+
+.card h3 {
+  margin: 0 0 6px 0;
+}
+
 .screen-ui h2 {
   margin: 0;
   font-size: clamp(28px, 3vw, 48px);
@@ -1466,6 +1478,7 @@ details p {
     margin-bottom: 28px;
     font-size: clamp(32px, 10vw, 46px);
   }
+  
 
   .grid {
     gap: 14px;
